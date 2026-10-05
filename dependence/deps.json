@@ -1,0 +1,36 @@
+{
+  "dependencies": [
+    {
+      "name": "Python 标准库（argparse/re/json/math/itertools/fractions）",
+      "source_url": "https://www.python.org/",
+      "license": "PSF-2.0",
+      "version": ">=3.10",
+      "install": "系统已装：python -V 自检；无第三方包安装需求",
+      "checked_at": "2026-10-05"
+    },
+    {
+      "name": "arXiv API（知识库锚点检索通道）",
+      "source_url": "http://export.arxiv.org/api/query",
+      "license": "arXiv API terms of use",
+      "version": "v1（Atom feed）",
+      "install": "无需安装；经 SMS 网络授权后由 webfetch 调用",
+      "checked_at": "2026-10-05"
+    },
+    {
+      "name": "Skill_Generator（本技能的生成器/审查流程宿主）",
+      "source_url": "local://Skill_Generator",
+      "license": "MIT",
+      "version": "0.1.0",
+      "install": "本地技能，无需下载",
+      "checked_at": "2026-10-05"
+    },
+    {
+      "name": "skill_manage_system（planned_tasks 到期调度执行端）",
+      "source_url": "local://skill_manage_system",
+      "license": "MIT",
+      "version": "installed",
+      "install": "本地技能；计划任务由其调度器读取执行",
+      "checked_at": "2026-10-05"
+    }
+  ]
+}

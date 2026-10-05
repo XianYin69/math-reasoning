@@ -1,0 +1,20 @@
+{
+  "id": "pt-数理推理-anchor-refresh",
+  "title": "季度复核知识库锚点可达性与依赖上游版本",
+  "skill": "数理推理",
+  "input": "逐条访问 references/ 中的外部锚点链接与 dependence/deps.json 的 source_url，核实是否仍可达、版本是否变动；不可达即按 resistance/降级策略 处理并更新 references/经验查询记录.md，禁止保留无法核实的引用。",
+  "schedule": {
+    "mode": "cron",
+    "at": "",
+    "cron": "0 9 1 1,4,7,10 *",
+    "every_min": 0
+  },
+  "session": { "kind": "cron", "key": "数理推理:pt-数理推理-anchor-refresh" },
+  "status": "pending",
+  "created": "2026-10-05T09:20",
+  "next_run": "2027-01-01T09:00",
+  "last_run": null,
+  "runs": 0,
+  "notify": "shell",
+  "depends": []
+}
