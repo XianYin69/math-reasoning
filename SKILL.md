@@ -42,8 +42,7 @@ metadata:
 
 ## 知识·依赖·计划任务
 
-[references/](references/references.md) · [dependence/deps.json](dependence/deps.json) ·
-[planned_tasks/](planned_tasks/README.md) · [asset/](asset/asset.md)
+[references/](references/references.md) · [deps.json](dependence/deps.json) · [planned_tasks/](planned_tasks/README.md) · [asset/](asset/asset.md)
 
 ## 红线摘要
 
